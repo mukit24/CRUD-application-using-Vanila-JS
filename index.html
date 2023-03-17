@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="bg-dark text-light">
+        <div class="container p-5">
+            <h3 class="text-center alert alert-dark">CRUD Application Using Vanila JavaScript</h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5 class="text-center alert alert-primary py-2">Create Task</h5>
+                    <form>
+                        <div class="mb-3">
+                          <label for="task-name" class="form-label">Task Name</label>
+                          <input type="text" class="form-control" id="task-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="task-status" class="form-label">Task Status</label>
+                            <select class="form-select" id="task-status">
+                                <option value="1">Incomplete</option>
+                                <option value="2">Complete</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Submit</button>
+                      </form>
+                </div>
+                <div class="col-sm-6">
+                    <h5 class="text-center alert alert-success py-2">List of Tasks</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
